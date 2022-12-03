@@ -100,7 +100,7 @@ const handleSubmit = () => {
       }
       setMessages([...messages, newText])
       console.log(text+ " "+ isTopic+ " "+topic)
-      axios.get('https://int-elligent-chatbot.onrender.com/query/', {
+      axios.get('https://chat-bot-370504.uk.r.appspot.com/query/', {
         params: {
           query: text,
           topic_flag: isTopic,
